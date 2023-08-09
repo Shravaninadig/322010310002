@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: light rgb(193, 47, 255);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App {
+  text-align: center;
+  height: 100vh; /* Set the app height to 100% of viewport height */
+  display: flex;
+  flex-direction: column;
+}
+
+.App-header {
+  background-color: #f0f0f0;
+  padding: 20px;
+  flex: 1; /* Make the app header take 10% of the total height */
+}
+
+.train-logo {
+  height: 150px;
+}
+
+.App-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 40px;
+  flex: 9; /* Make the app content take 90% of the total height */
+}
+
+.train-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 40px;
+  margin: 20px;
+  width: 300px;
+  text-align: left;
+}
+
+.book-logo {
+  height: 50px;
+  margin-top: 10px;
+}
